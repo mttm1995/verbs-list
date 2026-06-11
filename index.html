@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Verb Master – 2000 English Verbs with Assamese Meaning</title>
+  <!-- Bootstrap 5 + Icons + jQuery -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom CSS & JS -->
+  <link rel="stylesheet" href="index.css">
+  <script src="verbs.js"></script>
+  <script src="index.js" defer></script>
+</head>
+<body>
+
+<div class="hero-section position-relative overflow-hidden">
+  <div class="hero-overlay"></div>
+  <div class="hero-glow glow-1"></div>
+  <div class="hero-glow glow-2"></div>
+  <div class="container text-center position-relative">
+    <span class="hero-badge badge rounded-pill bg-white text-dark px-4 py-2 mb-3">Muzahid The Tech Master</span>
+    <h1 class="display-4 fw-bold neon-title"><i class="bi bi-journal-bookmark-fill"></i> Verb Master</h1>
+    <p class="lead text-light mb-4">2000 English Verbs with Present, Past, Past Participle & অসমীয়া অৰ্থ</p>
+
+    <div class="search-wrapper mx-auto">
+      <div class="input-group input-group-lg search-input-group shadow-lg">
+        <span class="input-group-text bg-transparent border-0 text-light"><i class="bi bi-search"></i></span>
+        <input type="text" id="verbSearch" class="form-control form-control-lg border-0 bg-transparent text-light" placeholder="Search any verb (e.g., go, eat, write, become)" autocomplete="off">
+        <button class="btn btn-neon-primary" id="searchBtn" type="button">Search</button>
+        <button class="btn btn-outline-light border-0 d-none d-md-inline-flex align-items-center" id="clearBtn" type="button"><i class="bi bi-x-circle"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-5" id="resultContainer">
+  <div class="text-center py-5">
+    <div class="hero-placeholder-icon">
+      <i class="bi bi-search"></i>
+    </div>
+    <p class="mt-3 text-light-50 fs-5">Type a verb and hit Search to view conjugations and Assamese meaning.</p>
+  </div>
+</div>
+
+<footer class="footer mt-5 py-4 text-center text-white-50">
+  <small>❤️ © 2026 Developed by Muzahid The Tech Master. All rights reserved.</small>
+</footer>
+
+<button class="btn btn-neon-primary d-lg-none position-fixed bottom-0 start-50 translate-middle-x mb-3 mx-2" id="mobileSearchBtn" style="width: calc(100% - 1rem); max-width: 100%; z-index: 99;">
+  <i class="bi bi-search"></i> Search Verb
+</button>
+
+</body>
+</html>
